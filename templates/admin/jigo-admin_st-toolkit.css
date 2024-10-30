@@ -1,0 +1,202 @@
+/* Tabbed navigation */
+
+.jigoshop_page_jigo_st h2 .nav-tab {
+	font-size: 16px;
+	line-height:20px;
+	padding:3px 6px 3px;
+	margin-right:0;
+}
+
+.jigoshop_page_jigo_st h2.nav-tab-wrapper {
+	padding-left:7px;
+}
+
+/* Support - Donate / Rate */
+
+.jigoshop_page_jigo_st .support-donate_rate {
+	display:block;
+	float:right;
+}
+.jigoshop_page_jigo_st .support-donate_rate p {
+	margin-top:16px;
+}
+.jigoshop_page_jigo_st .support-donate_rate .star {
+	vertical-align:bottom;
+	display:inline-block;
+	width:17px;
+	height:17px;
+	background:url('images/star.png') no-repeat;
+}
+.jigoshop_page_jigo_st .support-donate_rate span {
+	display:none;
+}
+
+.jigoshop_page_jigo_st p.submit {
+	padding:0;
+	margin:0;
+}
+.jigoshop_page_jigo_st table.form-table {
+	margin-bottom:0.7em;
+}
+.jigoshop_page_jigo_st .form-table th,
+.jigoshop_page_jigo_st .form-table td {
+	padding:0;
+}
+
+#jigoshop_sales_summary .price {
+	font-size:15px;
+}
+#jigoshop_sales_summary .price span {
+	font-size:12px;
+	padding-left:0.7em;
+	color:#999;
+}
+#jigoshop_sales_summary .price span.up {
+	color:green;
+}
+#jigoshop_sales_summary .price span.down {
+	color:red;
+}
+#jigoshop_sales_summary .price span.line {
+	color:#e66f00l;
+}
+
+/* Dashboard widget - Right Now in Store - Stock Report - Sales Summary */
+
+#jigoshop_right_now, #jigoshop_low_stock {
+	padding-top: 20px;
+}
+#jigoshop_right_now p.sub,
+#jigoshop_right_now .table,
+#jigoshop_right_now .versions,
+#jigoshop_low_stock p.sub,
+#jigoshop_low_stock .table,
+#jigoshop_low_stock .versions {
+	margin: -12px;
+}
+#jigoshop_right_now .inside,
+jigoshop_low_stock .inside {
+	font-size: 12px;
+	padding-top: 20px;
+	margin-bottom: 0;
+}
+#jigoshop_right_now p.sub,
+#jigoshop_low_stock p.sub {
+	padding: 5px 0 15px;
+	color: #8f8f8f;
+	font-size: 14px;
+	position: absolute;
+	top: -17px;
+	left: 15px;
+}
+	body.rtl #jigoshop_right_now p.sub,
+	body.rtl #jigoshop_low_stock p.sub {
+		right: 15px;
+		left: 0;
+	}
+#jigoshop_right_now .table,
+#jigoshop_low_stock .table,
+#jigoshop_sales_summary .table {
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+#jigoshop_right_now .table_content,
+#jigoshop_low_stock .table_content,
+#jigoshop_sales_summary .table_content {
+	float: left;
+	border-top: #ececec 1px solid;
+	width: 45%;
+}
+	body.rtl #jigoshop_right_now .table_content,
+	body.rtl #jigoshop_low_stock .table_content,
+	body.rtl #jigoshop_sales_summary .table_content {
+		float: right;
+	}
+#jigoshop_right_now .table_discussion,
+#jigoshop_low_stock .table_discussion,
+#jigoshop_sales_summary .table_discussion {
+	float: right;
+	border-top: #ececec 1px solid;
+	width: 45%;
+}
+	body.rtl #jigoshop_right_now .table_discussion,
+	body.rtl #jigoshop_low_stock .table_discussion,
+	body.rtl #jigoshop_sales_summary .table_discussion {
+		float: left;
+	}
+#jigoshop_sales_summary .table_top {
+	border-top:none;
+}
+#jigoshop_right_now table td,
+#jigoshop_low_stock table td {
+	padding: 3px 0;
+	white-space: nowrap;
+}
+#jigoshop_right_now table tr.first td,
+#jigoshop_low_stock table tr.first td {
+	border-top: none;
+}
+#jigoshop_right_now td.b,
+#jigoshop_low_stock td.b {
+	padding-right: 6px;
+	text-align: right;
+	font-family: Georgia, "Times New Roman", "Bitstream Charter", Times, serif;
+	font-size: 14px;
+	width: 1%;
+}
+	body.rtl #jigoshop_right_now td.b,
+	body.rtl #jigoshop_low_stock td.b {
+		padding-left: 6px;
+		padding-right: 0;
+	}
+#jigoshop_right_now td.b a,
+#jigoshop_low_stock td.b a {
+	font-size: 18px;
+}
+#jigoshop_right_now td.b a:hover,
+#jigoshop_low_stock td.b a:hover {
+	color: #d54e21;
+}
+#jigoshop_right_now .t,
+#jigoshop_low_stock .t {
+	font-size: 12px;
+	padding-right: 12px;
+	padding-top: 6px;
+	color: #777;
+}
+	body.rtl #jigoshop_right_now .t,
+	body.rtl #jigoshop_low_stock .td {
+		padding-left: 12px;
+		padding-right: 0;
+	}
+#jigoshop_right_now .t a,
+#jigoshop_low_stock .t a {
+	white-space: nowrap;
+}
+#jigoshop_right_now .spam {
+	color: red;
+}
+#jigoshop_right_now .waiting {
+	color: #e66f00;
+}
+#jigoshop_right_now .approved {
+	color: green;
+}
+#jigoshop_right_now .versions {
+	padding: 6px 10px 12px;
+	clear: both;
+}
+#jigoshop_right_now .versions .b {
+	font-weight: bold;
+}
+#jigoshop_right_now a.button {
+	float: right;
+	clear: right;
+	position: relative;
+	top: -5px;
+}
+	body.rtl #jigoshop_right_now a.button {
+		float: left;
+		clear: left;
+	}
